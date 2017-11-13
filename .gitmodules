@@ -10,3 +10,9 @@
 [submodule "wordpress"]
 	path = wordpress
 	url = https://github.com/WordPress/WordPress.git
+[submodule "plugins/woocommerce"]
+	path = plugins/woocommerce
+	url = git@github.com:tyolab/woocommerce.git
+[submodule "themes/storefront"]
+	path = themes/storefront
+	url = git@github.com:tyolab/storefront.git

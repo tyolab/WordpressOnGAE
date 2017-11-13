@@ -1,5 +1,5 @@
-application: your-project-id
-version: wpfromstarterproject
+application: fred-auto-parts
+version: v0
 runtime: php55
 api_version: 1
 
@@ -54,3 +54,15 @@ skip_files:
 - ^(.*/)?\.bat$
 - ^(.*/)?\.sh$
 - ^(.*/)?\.md$
+- ^(.*/)?\.zip$
+- ^(.*/)?\.bat$
+- ^(.*/)?\.sh$
+- \.git$
+- wordpress/wp-content/themes/twenty*
+
+env_variables:
+  # Replace project, instance, database, user and password with the values obtained
+  # when configuring your Cloud SQL instance.
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/tyo-lab-databases:hosting1;dbname=fredautoparts_db
+  MYSQL_USER: eric
+  MYSQL_PASSWORD: 'rtyu9908#'
