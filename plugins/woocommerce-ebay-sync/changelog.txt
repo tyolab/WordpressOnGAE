@@ -1,0 +1,66 @@
+*** WooCommerce eBay Sync Changelog ***
+
+2017.10.09 - version 1.9.96
+ * Use short description if no other.
+ * Title optimisation improvements.
+
+2017.09.22 - version 1.9.95
+ * Fix for Wordpress change.
+
+2017.08.31 - version 1.9.94
+ * Diagnostics and feedback.
+
+2017.07.21 - version 1.9.93
+ * Allow user to label title optimisation rules.
+ * Many fixes and minor improvements.
+
+2017.06.02 - version 1.9.92
+ * Handle new eBay categories.
+
+2017.05.05 - version 1.9.91
+ * WooCommerce deprecation.
+ * Automatic image resizing.
+
+2017.04.11 - version 1.9.8
+ * WooCommerce 3.x compatibility fixes.
+
+2017.04.06 - version 1.9.7
+ * WooCommerce 3.x compatibility fixes.
+
+2017.04.06 - version 1.9.6
+ * Fix for check.
+
+2017.04.05 - version 1.9.5
+ * Fix for active content warning.
+
+2017.02.24 - version 1.9.4
+ * Fixes for relisting items.
+
+2017.01.27 - version 1.9.3
+ * Fix for delisting items.
+
+2017.01.24 - version 1.9.2
+ * Removing a change.
+
+2017.01.24 - version 1.9.1
+ * New shipping rule features.
+
+2017.01.16 - version 1.9.0
+ * Bug fixes.
+
+2016.12.22 - version 1.8.0
+ * Fix update code.
+
+2016.12.20 - version 1.7.0
+ * Log clean-up.
+
+2016.12.01 - version 1.6.0
+ * Better content filtering.
+ * Bulk toggle visibility.
+ * Fixes for variants.
+
+2016.11.22 - version 1.4.0
+ * Same release as previous.
+
+2016.11.09 - version 1.0.0
+ * First Release.

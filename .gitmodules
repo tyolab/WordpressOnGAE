@@ -16,3 +16,6 @@
 [submodule "themes/storefront"]
 	path = themes/storefront
 	url = git@github.com:tyolab/storefront.git
+[submodule "plugins/paypal-for-woocommerce"]
+	path = plugins/paypal-for-woocommerce
+	url = https://github.com/wp-plugins/paypal-for-woocommerce.git
