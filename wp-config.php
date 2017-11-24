@@ -20,7 +20,7 @@ define('WP_CACHE', true);
 /** The name of the database for WordPress */
 
 if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
-	define('DB_NAME', 'fredautoparts_db');
+	define('DB_NAME', 'fap_store_db');
 	/** Live environment Cloud SQL login and SITE_URL info */
 	/** Note that from App Engine, the password is not required, so leave it blank here */
 	// define('DB_HOST', ':/cloudsql/tyo-lab-databases:hosting1');
@@ -31,7 +31,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	// /** MySQL database password */
 	// define('DB_PASSWORD', '1qaz@WSX');
 
-	define('DB_HOST', ':/cloudsql/fred-auto-parts:hosting1');
+	define('DB_HOST', ':/cloudsql/fred-auto-parts-www1:hosting1');
 	
 	/** MySQL database username */
 	define('DB_USER', 'root');
@@ -48,7 +48,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	 * You can have multiple installations in one database if you give each a unique
 	 * prefix. Only numbers, letters, and underscores please!
 	 */
-	$table_prefix  = 'fap_';
+	// $table_prefix  = 'fap_';
 
 } else {
 	/** Local environment MySQL login info */
@@ -64,7 +64,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
 
-	$table_prefix  = 'wp_';
+	$table_prefix  = 'wp_fap_';
 
 	/** IF RUN ON GOOGLE APP ENGINE */
 	define('WP_HOSTING_APP_ENGINE', false);
@@ -75,7 +75,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	 * You can have multiple installations in one database if you give each a unique
 	 * prefix. Only numbers, letters, and underscores please!
 	 */
-	// define('DB_NAME', 'fredautoparts_db');
+	// define('DB_NAME', 'wordpress_db');
 	
 	// /** MySQL database username */
 	// define('DB_USER', 'eric');
@@ -86,7 +86,7 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	// /** MySQL hostname */
 	// define('DB_HOST', '173.194.85.92');
 
-	// $table_prefix  = 'fap_';
+	// $table_prefix  = 'wp_';
 // 	define('DB_USER', 'root');
 // 	define('DB_PASSWORD', '');
 }
@@ -123,7 +123,7 @@ define('NONCE_SALT',       ':?=mAKSCo,:Av|%[;C_i,Dszy)p65<)0QA2O5N;?okcW`EX3QddS
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_fap_';
+// $table_prefix  = 'wp_fap_';
 
 /**
  * WordPress Localized Language, defaults to English.
