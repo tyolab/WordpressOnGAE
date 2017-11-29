@@ -42,14 +42,6 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	/** IF RUN ON GOOGLE APP ENGINE */
 	define('WP_HOSTING_APP_ENGINE', true);
 
-	/**
-	 * WordPress Database Table prefix.
-	 *
-	 * You can have multiple installations in one database if you give each a unique
-	 * prefix. Only numbers, letters, and underscores please!
-	 */
-	// $table_prefix  = 'fap_';
-
 } else {
 	/** Local environment MySQL login info */
 	// 	define('DB_HOST', '173.194.226.139');
@@ -63,8 +55,6 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
-
-	$table_prefix  = 'wp_fap_';
 
 	/** IF RUN ON GOOGLE APP ENGINE */
 	define('WP_HOSTING_APP_ENGINE', false);
@@ -86,7 +76,6 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	// /** MySQL hostname */
 	// define('DB_HOST', '173.194.85.92');
 
-	// $table_prefix  = 'wp_';
 // 	define('DB_USER', 'root');
 // 	define('DB_PASSWORD', '');
 }
@@ -123,7 +112,7 @@ define('NONCE_SALT',       ':?=mAKSCo,:Av|%[;C_i,Dszy)p65<)0QA2O5N;?okcW`EX3QddS
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-// $table_prefix  = 'wp_fap_';
+$table_prefix  = 'fap_';
 
 /**
  * WordPress Localized Language, defaults to English.
@@ -151,8 +140,8 @@ if (WP_HOSTING_APP_ENGINE) {
 	// define( 'WP_SITEURL', $url);
 	// define( 'WP_HOME', $url);
 
-	define( 'WP_SITEURL', "https://fred-auto-parts.appspot.com");
-	define( 'WP_HOME', "https://fred-auto-parts.appspot.com");
+	define( 'WP_SITEURL', "https://fred-auto-parts-store1.appspot.com");
+	define( 'WP_HOME', "https://fred-auto-parts-store1.appspot.com");
 
 	define('WP_DEBUG', false);
 }
@@ -184,6 +173,8 @@ else {
  * Disable default wp-cron in favor of a real cron job
  */
 define('DISABLE_WP_CRON', true);
+
+// define('WP_PLUGIN_DIR', 'gs://fred-auto-parts-www1.appspot.com/wordpress/plugins/');
 
 // configures batcache
 $batcache = [
