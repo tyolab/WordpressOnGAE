@@ -1,4 +1,4 @@
-application: fred-auto-parts
+application: fred-auto-parts-store1
 version: v0
 runtime: php55
 api_version: 1
@@ -59,6 +59,33 @@ skip_files:
 - ^(.*/)?\.sh$
 - \.git$
 - wordpress/wp-content/themes/twenty*
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^(.*/)?tests$
+- ^(.*/)?test$
+- ^(.*/)grunt\.js
+- ^(.*/)node_modules/(.*/)?
+- ^(.*/)bower_components/(.*/)?
+- ^scripts/(.*/)?
+- ^test/(.*/)?
+- ^README\..*
+- \.gitignore
+- ^\.git/.*
+- \.*\.lint$
+- wp-config.php
+- themes
+- plugins
+- wordpress/wp-content/uploads
+- ^(.*/)?VERSION
+- ^(.*/)?Doxyfile
+- ^(.*/)?php(.*)\.xml
+- ^(.*/)?composer.(json|lock)
+- ^(.*/)?LICENSE\..*
 
 env_variables:
   # Replace project, instance, database, user and password with the values obtained
