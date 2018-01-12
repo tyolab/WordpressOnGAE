@@ -140,8 +140,8 @@ if (WP_HOSTING_APP_ENGINE) {
 	// define( 'WP_SITEURL', $url);
 	// define( 'WP_HOME', $url);
 
-	define( 'WP_SITEURL', "https://fred-auto-parts-store1.appspot.com");
-	define( 'WP_HOME', "https://fred-auto-parts-store1.appspot.com");
+	define( 'WP_SITEURL', "https://store.fredauto.com.au");
+	define( 'WP_HOME', "https://store.fredauto.com.au");
 
 	define('WP_DEBUG', false);
 }
