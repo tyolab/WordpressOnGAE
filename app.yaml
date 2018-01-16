@@ -57,6 +57,7 @@ skip_files:
 - ^(.*/)?\.zip$
 - ^(.*/)?\.bat$
 - ^(.*/)?\.sh$
+- ^(.*/)?\.txt$
 - \.git$
 - wordpress/wp-content/themes/twenty*
 - ^(.*/)?app\.yaml
