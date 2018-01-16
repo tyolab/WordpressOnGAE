@@ -12,10 +12,10 @@
 	url = https://github.com/WordPress/WordPress.git
 [submodule "plugins/woocommerce"]
 	path = plugins/woocommerce.git
-	url = git@github.com:tyolab/woocommerce.git
+	url = https://github.com/woocommerce/woocommerce.git
 [submodule "themes/storefront"]
 	path = themes/storefront
-	url = git@github.com:tyolab/storefront.git
+	url = https://github.com/woocommerce/storefront.git
 [submodule "plugins/paypal-for-woocommerce"]
 	path = plugins/paypal-for-woocommerce
-	url = https://github.com/wp-plugins/paypal-for-woocommerce.git
+	url = https://github.com/angelleye/paypal-woocommerce.git

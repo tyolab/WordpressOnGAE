@@ -42,7 +42,8 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
 	/** IF RUN ON GOOGLE APP ENGINE */
 	define('WP_HOSTING_APP_ENGINE', true);
 
-} else {
+} 
+else {
 	/** Local environment MySQL login info */
 	// 	define('DB_HOST', '173.194.226.139');
 	define('DB_NAME', 'fap_store_db');
