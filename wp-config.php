@@ -13,8 +13,9 @@
  *
  * @package WordPress
  */
+
 // Required for batcache use
-define('WP_CACHE', true);
+define('WP_CACHE', false);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
