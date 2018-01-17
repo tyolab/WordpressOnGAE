@@ -1,21 +1,28 @@
 [submodule "appengine-wordpress-plugin"]
 	path = plugins/appengine-wordpress-plugin
 	url = https://github.com/GoogleCloudPlatform/appengine-wordpress-plugin.git
+	branch = origin/master
 [submodule "batcache"]
 	path = plugins/batcache
 	url = https://github.com/Automattic/batcache.git
+	branch = origin/master
 [submodule "wp-memcache"]
 	path = plugins/wp-memcache
 	url = https://github.com/jeremyfelt/Memcached-Object-Cache.git
+	branch = origin/master
 [submodule "wordpress"]
 	path = wordpress
 	url = https://github.com/WordPress/WordPress.git
+	branch = origin/master
 [submodule "plugins/woocommerce"]
 	path = plugins/woocommerce.git
 	url = https://github.com/woocommerce/woocommerce.git
+	branch = origin/master
 [submodule "themes/storefront"]
 	path = themes/storefront
 	url = https://github.com/woocommerce/storefront.git
+	branch = origin/master
 [submodule "plugins/paypal-for-woocommerce"]
 	path = plugins/paypal-for-woocommerce
 	url = https://github.com/angelleye/paypal-woocommerce.git
+	branch = origin/master
