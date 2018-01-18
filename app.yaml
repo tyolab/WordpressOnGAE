@@ -1,5 +1,5 @@
 application: fred-auto-parts-store1
-version: v3
+version: v0
 runtime: php55
 api_version: 1
 
