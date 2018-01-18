@@ -1,4 +1,4 @@
-application: fred-auto-parts-store1
+application: sample-project
 version: v0
 runtime: php55
 api_version: 1
